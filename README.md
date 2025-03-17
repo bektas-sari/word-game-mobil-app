@@ -13,7 +13,7 @@ This project is a mobile game where users try to guess the correct word by filli
 
 ## 📂 Project Structure
 ```plaintext
-word-game/
+word-game-mobil-app/
 ├── android/                    # Android platform folder (Created with Capacitor)
 │   ├── app/
 │   │   ├── src/
@@ -73,6 +73,7 @@ This file specifies which directory Capacitor should use as web content.
 This project is licensed under the **MIT License**. Anyone is free to develop and use it.
 
 ---
-📧 My goal in this project was to convert an application with index.html, style.css, and script.js files into a mobile application. The application opens and runs in Android Studio, but it has many missing features. Anyone can make changes as they wish and fix the missing parts..
+📧 My goal in this project was to convert an application with index.html, style.css, and script.js files into a mobile application. 
+The application opens and runs in Android Studio, but it has many missing features. Anyone can make changes as they wish and fix the missing parts..
 
 If you have any questions, feel free to contact me!
