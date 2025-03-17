@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .game-box {
+    background: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .masked-word {
+    font-size: 2rem;
+    color: #ff5722;
+    margin: 20px 0;
+    padding: 10px;
+    background: rgba(255, 87, 34, 0.1);
+    border-radius: 5px;
+  }
+  
+  .category {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin: 10px 0;
+  }
+  
+  .guess-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: #28a745;
+    color: white;
+    transition: opacity 0.3s ease;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .attempts {
+    color: #ff0000;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .message {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    color: #666;
+  }

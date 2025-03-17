@@ -1,0 +1,23 @@
+{
+  "name": "word-game",
+  "version": "1.0.0",
+  "scripts": {
+    "ionic:build": "echo Building... && rimraf www && cpx \"src/**/*\" www && cpx \"assets/**/*\" www/assets",
+    "ionic:serve": "echo Serving... && npx serve src/"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.7.8",
+    "@capacitor/core": "^5.7.8"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.7.8",
+    "cpx": "^1.5.0",
+    "rimraf": "^5.0.10"
+  },
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

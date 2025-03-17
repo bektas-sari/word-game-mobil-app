@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Guessing Game</title>
+  <link rel="stylesheet" href="global.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="game-box">
+      <h2>🔡 Word Guessing Game ✏️</h2>
+      <p id="masked-word" class="masked-word">_p_l_</p>
+      <p id="category" class="category">Category: Fruits</p>
+      <input type="text" id="userGuess" class="guess-input" placeholder="Your guess...">
+      <button onclick="checkGuess()">Submit</button>
+      <button class="btn" onclick="getNewWord()">🔄 New Word</button>
+      <p id="attempts" class="attempts">Attempts left: 5</p>
+      <p id="message" class="message"></p>
+      <footer class="footer">© Bektas - 2025</footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
