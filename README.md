@@ -73,6 +73,18 @@ This file specifies which directory Capacitor should use as web content.
 This project is licensed under the **MIT License**. Anyone is free to develop and use it.
 
 ---
+
+## 👤 Developer
+
+**Bektas Sari**  
+Email: bektas.sari@gmail.com  <br>
+GitHub: https://github.com/bektas-sari <br>
+LinkedIn: www.linkedin.com/in/bektas-sari <br>
+Researchgate: https://www.researchgate.net/profile/Bektas-Sari-3 <br>
+Academia: https://independent.academia.edu/bektassari <br>
+
+---
+
 📧 My goal in this project was to convert an application with index.html, style.css, and script.js files into a mobile application. 
 The application opens and runs in Android Studio, but it has many missing features. Anyone can make changes as they wish and fix the missing parts..
 
